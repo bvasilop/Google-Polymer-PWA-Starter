@@ -11,16 +11,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 import { html } from '@polymer/lit-element';
 
 export const ButtonSharedStyles = html`
-<style>
-  button {
-    font-size: inherit;
-    vertical-align: middle;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  button:hover svg {
-    fill: var(--app-primary-color);
-  }
-</style>
+  <style>
+    button {
+      font-size: inherit;
+      vertical-align: middle;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover svg {
+      fill: var(--app-primary-color);
+    }
+  </style>
 `;
